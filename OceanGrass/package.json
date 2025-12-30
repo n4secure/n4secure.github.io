@@ -6,7 +6,7 @@
   "homepage": "https://n4secure.github.io/OceanGrass/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && move /Y dist\\source.html dist\\index.html",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
