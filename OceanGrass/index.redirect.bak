@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="refresh" content="0;url=./dist/">
+  <script>
+    window.location.href = "./dist/";
+  </script>
+</head>
+
+<body>
+  <p>Redirecting to application...</p>
+  <a href="./dist/">Click here if not redirected</a>
+</body>
+
+</html>
