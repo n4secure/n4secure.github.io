@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
     plugins: [react()],
     // In dev, use root relative path.
     // In build, use the GitHub Pages repository name.
-    base: isDev ? '/' : '/OceanGrass/',
+    base: './',
     build: {
       outDir: 'dist',
     },
